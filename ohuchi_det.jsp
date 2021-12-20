@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
- <link rel="stylesheet" href="hukushimap.css">
+ <link rel="stylesheet" href="hukushima.css">
  <link rel="stylesheet" href="ohuchi.css">
  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
 <title>もんじゃーにー。 -福島県観光スポット  大内宿-</title>
@@ -10,7 +10,6 @@
 <body>
   <div class="front_ohuchi">
     <p>
-      もんじゃーにー。<br>
       おおうちじゅくへん。
     </p>
   </div>
