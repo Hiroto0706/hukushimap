@@ -4,13 +4,12 @@
 <meta charset="UTF-8">
  <link rel="stylesheet" href="hukushimap.css">
  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
-<title>もんじゃーにー。 - 福島激アツ観光スポット10選 - </title>
+<title>もんじゃーにー。 -福島県観光スポット  大内宿-</title>
 </head>
 <body>
   <div class="front_ohuchi">
     <p>
-      もんじゃーにー。<br>
-      おおうちやどへん。
+      おおうちじゅく。
     </p>
   </div>
 
