@@ -7,6 +7,14 @@ body{
   font-family: “STKaiti”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+.padding{
+  padding-top: 30px;
+}
+
 .front {
   position: relative;
   width: 100%;
