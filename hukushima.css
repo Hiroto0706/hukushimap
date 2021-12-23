@@ -5,6 +5,12 @@ body{
   padding: 0;
   background-color: #FFFAF0;
   font-family: “STKaiti”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, serif;
+  
+}
+
+div{
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -38,6 +44,11 @@ a {
   writing-mode: vertical-rl;
   font-family: "Hannari";
   text-shadow: 3px 4px 3px #d5d0d0;
+}
+
+.back_grad{
+  background: linear-gradient(#FFFAF0, #f7f4dc);
+  padding-bottom: 250px;
 }
 
 .prof {
@@ -85,10 +96,6 @@ a {
   text-shadow: 4px 4px 3px #808080;
 }
 
-.tsurugajo{
-  padding-top: 250px;
-}
-
 .tsurugajo_pic {
   position: relative;
   width: 100%;
@@ -112,6 +119,56 @@ a {
 
 .tsurugajo_text p {
   color: black;
+}
+
+.takayu_back{
+  padding-bottom: 250px;
+  background: linear-gradient(#f7f4dc, #c6eefc);
+}
+
+.takayu{
+  padding-top: 250px;
+}
+
+.takayu_pic{
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  background-image: url("https://cdn.4travel.jp/img/tcs/t/album/src/11/61/23/src_11612370.jpg?updated_at=1585209315");
+  background-size: cover;
+  margin: auto;
+}
+
+.takayu_text{
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.takayu_text p{
+  margin: 0 0 0 0;
+}
+
+.takayu_title{
+  font-size: 100px;
+  text-shadow: 4px 5px 3px #4a4a4a;
+}
+
+.takayu_par{
+  font-size: 8px;
+}
+
+footer{
+  height: 200px;
+}
+
+.fotter_p{
+  background-color: rgb(28, 27, 27);
+  color: white;
+  height: 13em; /* emは１文字分の長さを表している */
+  display: flex; /* ある要素を並列にする操作 */
+  align-items: center; /*交差軸に対し中央に配置 */
+  justify-content: center; /* 主軸に対して中央に配置 */
 }
 
 
