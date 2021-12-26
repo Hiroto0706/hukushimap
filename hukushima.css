@@ -21,6 +21,8 @@ a {
   padding-top: 30px;
 }
 
+
+/* 最初の画像のcss */
 .front {
   position: relative;
   width: 100%;
@@ -68,6 +70,8 @@ a {
   padding-bottom: 200px;
 }
 
+
+/* 大内宿のcss */
 .ohuchi {
   display: flex;
 }
@@ -82,7 +86,7 @@ a {
 }
 
 .ohuchi_text {
-  /* text-align: center; */
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
@@ -96,6 +100,8 @@ a {
   text-shadow: 4px 4px 3px #808080;
 }
 
+
+/* 鶴ヶ城のcss */
 .tsurugajo_pic {
   position: relative;
   width: 100%;
@@ -121,9 +127,11 @@ a {
   color: black;
 }
 
+
+/* 高湯温泉のcss */
 .takayu_back{
   padding-bottom: 250px;
-  background: linear-gradient(#f7f4dc, #c6eefc);
+  background: linear-gradient(#f7f4dc, #85dbfb);
 }
 
 .takayu{
@@ -158,6 +166,50 @@ a {
   font-size: 8px;
 }
 
+
+/* アクアマリン福島のcss */
+.aquamarine{
+  padding-bottom: 250px;
+  background: linear-gradient(#85dbfb, #3e7ddc);
+  display: flex;
+}
+
+.aquamarine_pic{
+  position: relative;
+  width: 60%;
+  height: 550px;
+  background-image: url("https://itta.me/assets/img/article/11598/06.jpg");
+  background-size: cover;
+}
+
+.minipic{
+  width: 300px;
+  height: 150%;
+}
+
+.aquamarine_minipic{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background-image: url("https://www.shikoku-np.co.jp/img_news.aspx?id=20150403000087&no=1&kyodo=1");
+  background-size: cover;
+}
+
+.aquamarine_text{
+  padding-top: 80px;
+  padding-left: 30px;
+  text-align: center;
+  bottom: 30px;
+  right: 40px;
+}
+
+.aquamarine_title{
+  font-size: 70px;
+  text-shadow: 4px 5px 3px #4a4a4a;
+  margin: 0;
+}
+
+/* fotterのcss */
 footer{
   height: 200px;
 }
@@ -170,7 +222,4 @@ footer{
   align-items: center; /*交差軸に対し中央に配置 */
   justify-content: center; /* 主軸に対して中央に配置 */
 }
-
-
-
 
