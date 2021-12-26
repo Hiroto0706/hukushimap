@@ -30,5 +30,11 @@
 			<a class="ohuchi_a" href="hukushima_spot.html">戻る</a>
 		</div>
 	</div>
+
+  <footer>
+		<div class="fotter_p">
+			<p>（株）もんじゃーにー。</p>
+		</div>
+	</footer>
 </body>
 </html>
