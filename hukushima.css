@@ -176,15 +176,10 @@ a {
 
 .aquamarine_pic{
   position: relative;
-  width: 60%;
+  width: 55%;
   height: 550px;
   background-image: url("https://itta.me/assets/img/article/11598/06.jpg");
   background-size: cover;
-}
-
-.minipic{
-  width: 300px;
-  height: 150%;
 }
 
 .aquamarine_minipic{
@@ -193,14 +188,13 @@ a {
   height: 200px;
   background-image: url("https://www.shikoku-np.co.jp/img_news.aspx?id=20150403000087&no=1&kyodo=1");
   background-size: cover;
+  bottom: -100px;
+  right: -100px;
 }
 
 .aquamarine_text{
-  padding-top: 80px;
-  padding-left: 30px;
+  margin: auto;
   text-align: center;
-  bottom: 30px;
-  right: 40px;
 }
 
 .aquamarine_title{

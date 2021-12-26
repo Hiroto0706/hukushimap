@@ -5,20 +5,20 @@
  <link rel="stylesheet" href="hukushima.css?v=2">
  <link rel="stylesheet" href="tsurugajo.css?v=2">
  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
-<title>もんじゃーにー。 -福島県観光スポット  鶴ヶ城-</title>
+<title>もんじゃーにー。 -福島県観光スポット  アクアマリンふくしま-</title>
 </head>
 <body>
   <div class="front_tsurugajo">
     <p>
-      つるがじょう。
+      あくあまりんふくしま。
     </p>
   </div>
 
 	<div class="tsurugajo_indel">
 		<div class="tsurugajo_text_indel">
-			<p>鶴ヶ城</p>
+			<p>アクアマリンふくしま</p>
 			<p>
-				鶴ヶ城は福島県の中でも、<br>
+				アクアマリンふくしまは福島県の中でも、<br>
 				1位2位を争うほど人気の観光スポットになります。<br>
 				テキストテキストテキストテキストテキストテキスト<br>
 				テキストテキストテキストテキストテキストテキスト<br>
