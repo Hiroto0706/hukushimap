@@ -215,9 +215,48 @@ a {
 }
 
 /* 東山温泉のcss */
-.higashiyama{
-  
+.higashiyama_pic{
+  position: relative;
+  width: 55%;
+  height: 550px;
+  background-image: url("https://www.spa.or.jp/img_hotel/L070260017/1.jpg");
+  text-align: left;
+  background-size: cover;
 }
+
+/* 猪苗代湖のcss */
+.inawashiro_pic{
+  position: relative;
+  width: 55%;
+  height: 550px;
+  background-image: url("https://www.tohokukanko.jp/lsc/upfile/spot/0000/1572/1572_1_l.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+/* 塔のへつりのcss */
+.tower_pic{
+  position: relative;
+  width: 55%;
+  height: 550px;
+  background-image: url("https://www.aizu-concierge.com/wp-content/uploads/2018/08/20191102_tonohetsuri1-1.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+/* あぶくま洞のcss */
+.abukuma_pic{
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/d9/27/ed/d927ed70c8ed512f431b2ddcb9f606b4.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+/* スパリゾートハワイアンズのcss */
+
+/* 五色沼湖沼群のcss */
 
 /* fotterのcss */
 footer{
