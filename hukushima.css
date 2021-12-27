@@ -176,13 +176,14 @@ a {
 
 .aquamarine_pic{
   position: relative;
-  width: 55%;
+  width: 50%;
   height: 550px;
   background-image: url("https://itta.me/assets/img/article/11598/06.jpg");
   background-size: cover;
+  margin-left: 30px;
 }
 
-.aquamarine_minipic{
+.aquamarine_minipic1{
   position: absolute;
   width: 300px;
   height: 200px;
@@ -190,6 +191,16 @@ a {
   background-size: cover;
   bottom: -100px;
   right: -100px;
+}
+
+.aquamarine_minipic2{
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background-image: url("https://pbs.twimg.com/media/DYZUxT8VMAE6SjY?format=jpg&name=large");
+  background-size: cover;
+  top: -100px;
+  left: -20px;
 }
 
 .aquamarine_text{
@@ -201,6 +212,11 @@ a {
   font-size: 70px;
   text-shadow: 4px 5px 3px #4a4a4a;
   margin: 0;
+}
+
+/* 東山温泉のcss */
+.higashiyama{
+  
 }
 
 /* fotterのcss */
