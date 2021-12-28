@@ -215,13 +215,49 @@ a {
 }
 
 /* 東山温泉のcss */
+.higashiyama{
+  padding-bottom: 250px;
+  background: linear-gradient(#3e7ddc, #1e1e1f);
+}
+
 .higashiyama_pic{
   position: relative;
-  width: 55%;
-  height: 550px;
+  width: 80%;
+  height: 100vh;
   background-image: url("https://www.spa.or.jp/img_hotel/L070260017/1.jpg");
   text-align: left;
   background-size: cover;
+  margin: auto;
+}
+
+.higashiyama_text{
+  position: absolute;
+  bottom: 90px;
+  right: 50px;
+  width: 200px;
+  height: 500px;
+  background-color: black;
+}
+
+.higashiyama_title{
+  font-size: 70px;
+  text-shadow: 4px 5px 3px #4a4a4a;
+  margin-right: 0;
+  padding-right: 0;
+  padding-top: 30px;
+}
+
+.higashiyama_text p {
+  font-size: 8px;
+	writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.higashiyama_text a{
+  color: white;
 }
 
 /* 猪苗代湖のcss */
