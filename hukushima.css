@@ -51,23 +51,27 @@ a {
 .back_grad{
   background: linear-gradient(#FFFAF0, #f7f4dc);
   padding-bottom: 250px;
+  padding-top: 100px;
 }
 
 .prof {
-  text-align: center;
   padding-top: 100px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin: 0 200px 0 auto;
 }
 
 .prof div{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
-  padding-top: 100px;
-  text-shadow: 3px 4px 3px #808080;
+  height: 1000px;
+  margin-left: 150px;
 }
 
 .prof p{
-  padding-top: 50px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 250px;
+  font-size: 20px;
 }
 
 
@@ -97,7 +101,6 @@ a {
   font-size: 100px;
   margin-bottom: 0;
   margin-top: 0;
-  text-shadow: 4px 4px 3px #808080;
 }
 
 
@@ -120,7 +123,6 @@ a {
   font-size: 100px;
   margin-top: 0;
   margin-bottom: 0;
-  text-shadow: 4px 5px 3px #4a4a4a;
 }
 
 .tsurugajo_text p {
@@ -159,7 +161,6 @@ a {
 
 .takayu_title{
   font-size: 100px;
-  text-shadow: 4px 5px 3px #4a4a4a;
 }
 
 .takayu_par{
@@ -210,7 +211,6 @@ a {
 
 .aquamarine_title{
   font-size: 70px;
-  text-shadow: 4px 5px 3px #4a4a4a;
   margin: 0;
 }
 
@@ -241,7 +241,6 @@ a {
 
 .higashiyama_title{
   font-size: 70px;
-  text-shadow: 4px 5px 3px #4a4a4a;
   margin-right: 0;
   padding-right: 0;
   padding-top: 30px;
@@ -261,13 +260,42 @@ a {
 }
 
 /* 猪苗代湖のcss */
+.inawashiroko{
+  background: linear-gradient(#1e1e1f, rgb(16, 16, 16));
+}
+
 .inawashiro_pic{
   position: relative;
-  width: 55%;
-  height: 550px;
-  background-image: url("https://www.tohokukanko.jp/lsc/upfile/spot/0000/1572/1572_1_l.jpg");
-  text-align: left;
+  width: 40%;
+  height: 100vh;
+  background-image: url("https://i2.wp.com/mizu-mirai.jp/wp-content/uploads/2020/01/%E4%BD%B3%E4%BD%9C_%E3%80%8C%E6%9A%AE%E8%89%B2%E3%81%AE%E4%B8%AD%E3%81%A7%E3%80%8D%E5%B7%A5%E8%97%A4%E4%BF%8A-scaled.jpg?ssl=1");
   background-size: cover;
+  margin: 0 0 0 auto;
+}
+
+.inawashiro_text{
+  position: absolute;
+  top: 200px;
+  left: -400px;
+  color: white;
+}
+
+.inawashiro_title{
+  width: 500px;
+  position: absolute;
+  top: 0px;
+  left: -150px;
+  font-size: 70px;
+}
+
+.inawashiro_p{
+  position: absolute;
+  width: 500px;
+  top: 200px;
+}
+
+.inawashiro_p a{
+  color: white;
 }
 
 /* 塔のへつりのcss */
