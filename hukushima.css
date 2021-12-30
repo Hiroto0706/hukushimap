@@ -17,6 +17,15 @@ a {
   text-decoration: none;
 }
 
+ul {
+  font-size: 30px;
+  padding-top: 250px;
+}
+
+li{
+  padding-left: 20px;
+}
+
 .padding{
   padding-top: 30px;
 }
@@ -207,11 +216,16 @@ a {
 .aquamarine_text{
   margin: auto;
   text-align: center;
+  color: white;
 }
 
 .aquamarine_title{
   font-size: 70px;
   margin: 0;
+}
+
+.aquamarine_text a{
+  color: white;
 }
 
 /* 東山温泉のcss */
@@ -262,6 +276,7 @@ a {
 /* 猪苗代湖のcss */
 .inawashiroko{
   background: linear-gradient(#1e1e1f, rgb(16, 16, 16));
+  padding-bottom: 250px;
 }
 
 .inawashiro_pic{
@@ -271,6 +286,16 @@ a {
   background-image: url("https://i2.wp.com/mizu-mirai.jp/wp-content/uploads/2020/01/%E4%BD%B3%E4%BD%9C_%E3%80%8C%E6%9A%AE%E8%89%B2%E3%81%AE%E4%B8%AD%E3%81%A7%E3%80%8D%E5%B7%A5%E8%97%A4%E4%BF%8A-scaled.jpg?ssl=1");
   background-size: cover;
   margin: 0 0 0 auto;
+}
+
+.inawashiro_picmin{
+  position: absolute;
+  width: 360px;
+  height: 500px;
+  background-image: url("https://i1.wp.com/mizu-mirai.jp/wp-content/uploads/2019/03/%E7%9B%AE%E8%A6%9A%E3%82%81%E3%82%8B%E6%B9%96.jpg?ssl=1");
+  background-size: cover;
+  bottom: 50px;
+  left: -800px;
 }
 
 .inawashiro_text{
