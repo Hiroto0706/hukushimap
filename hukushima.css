@@ -26,6 +26,10 @@ li{
   padding-left: 20px;
 }
 
+li > a{
+  color: black;
+}
+
 .padding{
   padding-top: 30px;
 }
@@ -215,12 +219,12 @@ li{
 
 .aquamarine_text{
   margin: auto;
-  text-align: center;
   color: white;
+  writing-mode: vertical-rl;
 }
 
 .aquamarine_title{
-  font-size: 70px;
+  font-size: 60px;
   margin: 0;
 }
 
@@ -275,7 +279,7 @@ li{
 
 /* 猪苗代湖のcss */
 .inawashiroko{
-  background: linear-gradient(#1e1e1f, rgb(16, 16, 16));
+  background: linear-gradient(#1e1e1f, rgb(38, 38, 38));
   padding-bottom: 250px;
 }
 
@@ -324,26 +328,76 @@ li{
 }
 
 /* 塔のへつりのcss */
+.tower{
+background-color: black;
+display: flex;
+padding-bottom: 250px;
+}
+
 .tower_pic{
   position: relative;
-  width: 55%;
-  height: 550px;
+  width: 50%;
+  height: 100vh;
   background-image: url("https://www.aizu-concierge.com/wp-content/uploads/2018/08/20191102_tonohetsuri1-1.jpg");
   text-align: left;
   background-size: cover;
 }
 
+.tower_title{
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.tower_text{
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.tower_text a{
+  color: white;
+}
+
 /* あぶくま洞のcss */
+.abukuma{
+ background-color: black;
+ display: flex;
+}
+
 .abukuma_pic{
   position: relative;
   width: 50%;
   height: 100vh;
   background-image: url("https://i.pinimg.com/originals/d9/27/ed/d927ed70c8ed512f431b2ddcb9f606b4.jpg");
-  text-align: left;
   background-size: cover;
 }
 
+.abukuma_text{
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.abukuma_title{
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.abukuma_text a{
+  color: white;
+}
+
 /* スパリゾートハワイアンズのcss */
+.supa_pic{
+  position: relative;
+  width: 50%;
+  height: 250px;
+  background-image: url("https://www.tif.ne.jp/jp/images/upload/20210518144251b2k4e8.jpg");
+  text-align: left;
+  background-size: cover;
+}
 
 /* 五色沼湖沼群のcss */
 
