@@ -116,6 +116,10 @@ li > a{
   margin-top: 0;
 }
 
+.ohuchi_text a{
+  color: black;
+}
+
 
 /* 鶴ヶ城のcss */
 .tsurugajo_pic {
@@ -139,6 +143,10 @@ li > a{
 }
 
 .tsurugajo_text p {
+  color: black;
+}
+
+.tsurugajo_text a{
   color: black;
 }
 
@@ -178,6 +186,10 @@ li > a{
 
 .takayu_par{
   font-size: 8px;
+}
+
+.takayu_text a{
+  color: black;
 }
 
 
@@ -389,12 +401,12 @@ padding-bottom: 250px;
   color: white;
 }
 
-/* スパリゾートハワイアンズのcss */
-.supa_pic{
+/* 花見山公園のcss */
+.hanamiyama_pic{
   position: relative;
-  width: 50%;
-  height: 250px;
-  background-image: url("https://www.tif.ne.jp/jp/images/upload/20210518144251b2k4e8.jpg");
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.hanamiyama.jp/wp/wp-content/themes/hanamiyama/images/slide0103.jpg");
   text-align: left;
   background-size: cover;
 }
