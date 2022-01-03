@@ -401,6 +401,11 @@ padding-bottom: 250px;
   color: white;
 }
 
+.padding_block{
+  padding-bottom: 250px;
+  background: linear-gradient(black, rgb(1,112,184));
+}
+
 /* 花見山公園のcss */
 .hanamiyama_pic{
   position: relative;
@@ -409,6 +414,26 @@ padding-bottom: 250px;
   background-image: url("https://www.hanamiyama.jp/wp/wp-content/themes/hanamiyama/images/slide0103.jpg");
   text-align: left;
   background-size: cover;
+}
+
+.hanamiyama_title{
+  width: 400px;
+  height: 100px;
+  background-color: black;
+
+  position: absolute;
+  bottom: -60px;
+  left: 0px;
+  font-size: 70px;
+  color: white;
+}
+
+.hanamiyama_text{
+  text-align: center;
+}
+
+.hanamiyama_text a{
+  color: black;
 }
 
 /* 五色沼湖沼群のcss */
