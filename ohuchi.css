@@ -12,16 +12,42 @@
 
 .front_ohuchi p{
   position: absolute;
-  color: white;
+  color: black;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 50px;
   font-family :Quicksand, sans-serif;
+  height: 400px;
+  margin: auto;
+  padding: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  margin: 0;
-  padding: 0;
   writing-mode: vertical-rl;
   font-family: "Hannari";
   text-shadow: 3px 4px 3px #d5d0d0;
+}
+
+.ohuchi_det{
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.ohuchi_text_det1{
+  margin: auto;
+  text-align: center;
+}
+
+.ohuchi_text_det2{
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.ohuchi_map{
+  width: 80%;
+  height: 80vh;
+  background-image: url("https://aizu-fuyutabi.com/wp/wp-content/uploads/2019/08/simogo_HPimg-08.jpg");
+  background-size: cover;
+  background-position: center;
 }
