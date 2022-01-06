@@ -147,14 +147,15 @@ li > a{
   font-size: 100px;
   margin-top: 0;
   margin-bottom: 0;
+  color: white;
 }
 
 .tsurugajo_text p {
-  color: black;
+  color: white;
 }
 
 .tsurugajo_text a{
-  color: black;
+  color: white;
 }
 
 
@@ -197,6 +198,7 @@ li > a{
 
 .takayu_text a{
   color: black;
+  font-size: 8px;
 }
 
 

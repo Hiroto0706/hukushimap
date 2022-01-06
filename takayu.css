@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-/* 鶴ヶ城の詳細ページのcss */
-.front_tsurugajo {
+/* 高湯温泉の詳細ページのcss */
+.front_takayu {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("https://pbs.twimg.com/media/DLmhVAsUQAEJFHj?format=jpg&name=large");
+  background-image: url("https://cdn.4travel.jp/img/tcs/t/album/src/11/61/23/src_11612370.jpg?updated_at=1585209315");
   background-size: cover;
   background-position: center;
 }
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.front_tsurugajo p{
+.front_takayu p{
   position: absolute;
   color: rgb(255, 255, 255, 1);
   font-weight: bold;
@@ -34,24 +34,24 @@
   font-family: "Hannari";
 }
 
-.tsurugajo_det{
+.takayu_det{
   display: flex;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.tsurugajo_text_det1{
+.takayu_text_det1{
   margin: auto;
   text-align: center;
 }
 
-.tsurugajo_text_det2{
+.takayu_text_det2{
   padding-top: 40px;
   margin: auto;
   text-align: center;
 }
 
-.tsurugajo_map{
+.takayu_map{
   width: 80%;
   height: 80vh;
   background-image: url("https://pbs.twimg.com/media/DLmhVAsUQAEJFHj?format=jpg&name=large");

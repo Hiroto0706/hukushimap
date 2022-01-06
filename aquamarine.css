@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-/* 鶴ヶ城の詳細ページのcss */
-.front_tsurugajo {
+/* アクアマリンふくしまの詳細ページのcss */
+.front_aquamarine {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url("https://pbs.twimg.com/media/DLmhVAsUQAEJFHj?format=jpg&name=large");
+  background-image: url("https://itta.me/assets/img/article/11598/06.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -18,13 +18,13 @@
   text-align: center;
 }
 
-.front_tsurugajo p{
+.front_aquamarine p{
   position: absolute;
   color: rgb(255, 255, 255, 1);
   font-weight: bold;
   font-size: 50px;
   font-family :Quicksand, sans-serif;
-  height: 400px;
+  height: 600px;
   margin: auto;
   padding: auto;
   top: 50%;
@@ -34,24 +34,24 @@
   font-family: "Hannari";
 }
 
-.tsurugajo_det{
+.aquamarine_det{
   display: flex;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.tsurugajo_text_det1{
+.aquamarine_text_det1{
   margin: auto;
   text-align: center;
 }
 
-.tsurugajo_text_det2{
+.aquamarine_text_det2{
   padding-top: 40px;
   margin: auto;
   text-align: center;
 }
 
-.tsurugajo_map{
+.aquamarine_map{
   width: 80%;
   height: 80vh;
   background-image: url("https://pbs.twimg.com/media/DLmhVAsUQAEJFHj?format=jpg&name=large");

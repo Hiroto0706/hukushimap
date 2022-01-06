@@ -3,19 +3,21 @@
 <head>
 <meta charset="UTF-8">
  <link rel="stylesheet" href="hukushima.css?v=2">
- <link rel="stylesheet" href="tsurugajo.css?v=2">
+ <link rel="stylesheet" href="takayu.css">
  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
 <title>もんじゃーにー。 -福島県観光スポット  高湯温泉-</title>
 </head>
 <body>
-  <div class="front_tsurugajo">
-    <p>
-      たかゆおんせん。
-    </p>
+  <div class="front_takayu">
+		<div class="pic_trans">
+			<p>
+				たかゆおんせん。
+			</p>
+		</div>
   </div>
 
-	<div class="tsurugajo_indel">
-		<div class="tsurugajo_text_indel">
+	<div class="takayu_det">
+		<div class="takayu_text_det1">
 			<p>高湯温泉</p>
 			<p>
 				高湯温泉は福島県の中でも、<br>
@@ -25,13 +27,27 @@
 				テキストテキストテキストテキストテキストテキスト<br>
 				テキストテキストテキストテキストテキストテキスト<br>
 				テキストテキストテキストテキストテキストテキスト<br>
-				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト
 			</p>
-			<a class="ohuchi_a" href="hukushima_spot.html">戻る</a>
+		</div>
+		<div class="takayu_text_det2">
+			<p>
+				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト<br>
+				テキストテキストテキストテキストテキストテキスト
+			</p>
 		</div>
 	</div>
 
-  <footer>
+	<div class="takayu_map">
+	</div>
+
+	<footer>
 		<div class="fotter_p">
 			<p>（株）もんじゃーにー。</p>
 		</div>
