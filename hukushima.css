@@ -45,6 +45,14 @@ li > a{
   background-position: center;
 }
 
+.front_trans{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
 .front p{
   position: absolute;
   color: white;
@@ -58,7 +66,6 @@ li > a{
   padding: 0;
   writing-mode: vertical-rl;
   font-family: "Hannari";
-  text-shadow: 3px 4px 3px #d5d0d0;
 }
 
 .back_grad{

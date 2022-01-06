@@ -9,9 +9,11 @@
 </head>
 <body>
   <div class="front_ohuchi">
-    <p>
-      おおうちじゅく。
-    </p>
+		<div class="pic_trans">
+			<p>
+				おおうちじゅく。
+			</p>
+		</div>
   </div>
 
 	<div class="ohuchi_det">
